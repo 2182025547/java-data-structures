@@ -13,10 +13,10 @@ import java.sql.SQLOutput;
 public class BubbleSort {
     public static void bulleSort(int[] a){
         int temp,length=a.length;
-        //每轮对前面的length-i个数进行排序
+        //要进行length-1轮循环,从（i+1)轮开始
         for(int i=0;i<length-1;i++){
             System.out.println("第"+ (i+1) +"轮交换");
-            //第一轮比较length-1次
+            //每轮循环执行次数为 length-(i+1)
             for( int j = 0; j < length - ( i + 1 ); j++){
                 //对比相邻的两个元素
                 if( a[j] >  a[j+1] ){
