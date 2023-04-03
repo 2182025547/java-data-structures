@@ -27,8 +27,13 @@ public class Collection_ {
         c.add("a");
         String[] sc = c.toArray(new String[0]);
         Object[] sc2 = c.toArray();
-        System.out.println(sc.length);
-
+        System.out.println(sc.length+""+c.size());
+        System.out.println(c.contains("c"));
+        Iterator<String> iterator = c.iterator();
+        while (iterator.hasNext()) {
+            Object next =  iterator.next();
+            System.out.println(next);
+        }
     }
 
 }

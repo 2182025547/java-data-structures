@@ -21,7 +21,8 @@ public class List_ {
         Book book = new Book("book1",14,"zhang san");
         Book book2 = new Book("book2",24,"zhang san");
         Book book3 = new Book("book3",4,"zhang san");
-
+        Book book1 = new Book();
+        System.out.println(book1);
         List list1 = new ArrayList();
         list1.add(book);
         list1.add(book2);
@@ -52,6 +53,9 @@ class Book{
         this.name = name;
         this.price = price;
         this.author = author;
+    }
+
+    public Book() {
     }
 
     public String getName() {
