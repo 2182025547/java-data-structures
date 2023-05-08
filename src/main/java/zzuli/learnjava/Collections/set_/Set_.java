@@ -2,6 +2,7 @@ package zzuli.learnjava.Collections.set_;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * @Author songyitian
@@ -11,6 +12,7 @@ import java.util.Set;
 @SuppressWarnings({"all"})
 public class Set_ {
     public static void main(String[] args) {
+//        TreeSet
 //        Set
 //        HashSet hashSet = new HashSet();
         HashSet hashSet1 = new HashSet();

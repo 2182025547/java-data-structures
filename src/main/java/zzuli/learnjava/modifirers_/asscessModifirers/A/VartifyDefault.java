@@ -10,10 +10,13 @@ public class VartifyDefault {
     public static void main(String[] args) {
         AwithDefault a = new AwithDefault();
         a.getA();
+
         TestProtected t = new TestProtected();
-        System.out.println(t.name);
+        System.out.println(t.name+a.a);
+        Default_ c = new Default_();
     }
     public void test(){
         a.getA();
     }
 }
+

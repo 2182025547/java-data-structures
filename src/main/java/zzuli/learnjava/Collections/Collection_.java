@@ -26,6 +26,7 @@ public class Collection_ {
         c.add("a");
         c.add("a");
         String[] sc = c.toArray(new String[0]);
+        Collections.sort((List)c);
         Object[] sc2 = c.toArray();
         System.out.println(sc.length+""+c.size());
         System.out.println(c.contains("c"));

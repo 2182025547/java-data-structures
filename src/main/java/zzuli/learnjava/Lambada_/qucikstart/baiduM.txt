@@ -1,0 +1,251 @@
+<body>
+<div id="header-wrapper" class="clearfix">
+<div id="usrbar" alog-group="userbar" alog-alias="hunter-userbar-start"></div>
+<ul id="header-link-wrapper" class="clearfix">
+<li><a href="https://www.baidu.com/" data-path="s?wd=">网页</a></li>
+<li style="margin-left:21px;"><span>新闻</span></li>
+<li><a href="http://tieba.baidu.com/" data-path="f?kw=">贴吧</a></li>
+<li><a href="https://zhidao.baidu.com/" data-path="search?ct=17&pn=0&tn=ikaslist&rn=10&lm=0&word=">知道</a></li>
+<li><a href="http://music.baidu.com/" data-path="search?fr=news&ie=utf-8&key=">音乐</a></li>
+<li><a href="http://image.baidu.com/" data-path="search/index?ct=201326592&cl=2&lm=-1&tn=baiduimage&istype=2&fm=&pv=&z=0&word=">图片</a></li>
+<li><a href="http://v.baidu.com/" data-path="v?ct=3019898888&ie=utf-8&s=2&word=">视频</a></li>
+<li><a href="http://map.baidu.com/" data-path="?newmap=1&ie=utf-8&s=s%26wd%3D">地图</a></li>
+<li><a href="http://wenku.baidu.com/" data-path="search?ie=utf-8&word=">文库</a></li>
+<div class="header-divider"></div>
+</ul>
+</div>
+<div id="app_tooltip_qrcode">
+<img src="//gss0.bdstatic.com/5foIcy0a2gI2n2jgoY3K/static/fisp_static/common/img/sidebar/newErweima_9fa03e0.png">
+</div>
+<div id="headerwrapper">
+<div id="header" alog-group="header" alog-alias="hunter-header-start">
+
+<table class="sbox" id="sbox" alog-group="search-box">
+<tr>
+<td class="logo">
+<div class="logo">
+<a href="http://news.baidu.com/">
+<!--[if !IE]><!--><img src="https://news-bos.cdn.bcebos.com/mvideo/log-news.png" alt="百度新闻" height="46px" width="137px"><!--<![endif]-->
+<!--[if IE 6]><img src="https://news-bos.cdn.bcebos.com/mvideo/log-news-ie6.png" alt="百度新闻" height="46px" width="137px"><![endif]-->
+<!--[if gt IE 6]><img src="https://news-bos.cdn.bcebos.com/mvideo/log-news.png" alt="百度新闻" height="46px" width="137px"><![endif]-->
+</a>
+</div>
+<div class="date"></div>
+</td>
+<td class="search">
+<table>
+<tr>
+<td class="box"><div id="sugarea"><span class="s_ipt_wr" id="s_ipt_wr"><input class="word" id="ww" name="word" size="42"  maxlength="100" tabindex="1"></span><span class="s_btn_wr"><input class="btn" id="s_btn_wr" type="button" value="百度一下" onmousedown="this.className='btn s_btn_h'" onmouseout="this.className='btn'"></span></div></td>
+<td class="help"><a href="//help.baidu.com">帮助</a></td>
+</tr>
+</table>
+<p class="search-radios">
+<input type="radio" name="tn" value="news" checked="checked" id="news">
+<label for="news" class="checked">新闻全文</label>
+<input type="radio" name="tn" value="newstitle" id="newstitle">
+<label for="newstitle" class="not-checked">新闻标题</label>
+</p>
+<input type="hidden" name="from" id="from" value="news">
+<input type="hidden" name="cl" id="cl" value="2">
+<input type="hidden" name="rn" id="rn" value="20">
+<input type="hidden" name="ct" id="ct" value="1">
+</td>
+</tr>
+</table>
+
+</div>
+
+<div id="menu" class="mod-navbar" alog-group="home-menu">
+<div id="channel-shanghai" class="channel-shanghai clearfix"  style="display:none" >
+<div class="menu-list">
+<ul class="clearfix">
+<li class="navitem-index current active"><a href="/">首页</a></li>
+<li ><a href="/guonei">国内</a></li>
+<li ><a href="/guoji">国际</a></li>
+<li ><a href="/mil">军事</a></li>
+<li ><a href="/finance">财经</a></li>
+<li ><a href="/ent">娱乐</a></li>
+<li ><a href="/sports">体育</a></li>
+<li ><a href="/internet">互联网</a></li>
+<li ><a href="/tech">科技</a></li>
+<li ><a href="/game">游戏</a></li>
+<li ><a href="/lady">女人</a></li>
+<li ><a href="/auto">汽车</a></li>
+<li ><a href="/house">房产</a></li>
+</ul>
+</div>
+<i class="slogan"></i>
+</div>
+<div id="channel-all" class="channel-all clearfix" >
+<div class="menu-list">
+<ul class="clearfix">
+<li class="navitem-index current active"><a href="/">首页</a></li>
+<li ><a href="/guonei">国内</a></li>
+<li ><a href="/guoji">国际</a></li>
+<li ><a href="/mil">军事</a></li>
+<li ><a href="/finance">财经</a></li>
+<li ><a href="/ent">娱乐</a></li>
+<li ><a href="/sports">体育</a></li>
+<li ><a href="/internet">互联网</a></li>
+<li ><a href="/tech">科技</a></li>
+<li ><a href="/game">游戏</a></li>
+<li ><a href="/lady">女人</a></li>
+<li ><a href="/auto">汽车</a></li>
+<li ><a href="/house">房产</a></li>
+</ul>
+</div>
+<i class="slogan"></i>
+</div>
+</div>
+
+</div>
+<div id="body" alog-alias="b">
+
+<div class="top-banner" id="topbanner"></div>
+<div class="column clearfix" id="focus-top" style="margin-top: 12px; margin-bottom: 31px;">
+<div class="l-left-col" alog-group="focus-top-left">
+<div id="left-col-wrapper">
+<div class="recommend-tip-wrapper">
+<div class="tip-wrapper">
+<div class="background-wrapper">
+<a id="tip-float" class="mod-headline-tip" href="javascript:void(0);">
+<div class="content-wrapper">
+<i class="tip-logo"></i>
+<div class="tip-content">点击刷新，将会有未读推荐</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<div id="headline-tabs" class="mod-headline-tab">
+<ul class="clearfix">
+<li class="active"><a href="javascript:void(0);" data-control="pane-news">热点要闻</a></li>
+</ul>
+<a id="tab-login" class="tab-login" href="javascript:void(0);" onclick="return false" mon="m=53&a=3"></a>
+</div>
+<div class="mod-tab-content">
+<div id="pane-news" class="mod-tab-pane active">
+<div class="hotnews" alog-group="focustop-hotnews">
+<ul><li class="hdline0">
+<i class="dot"></i>
+<strong>
+<a href="https://wap.peopleapp.com/article/7066654/6919904" target="_blank" class="a3" mon="ct=1&a=1&c=top&pn=0">“他是情深义重的人” </a></strong>
+</li>
+<li class="hdline1">
+<i class="dot"></i>
+<strong>
+<a href="https://news.cctv.com/2023/04/21/ARTIJvZKxQE4kIQwSMrsV1EQ230421.shtml" target="_blank"  mon="r=1"><b>以学铸魂 为干事创业提供强大动力</b></a>
+<i style="font-size: 12px">&nbsp;</i><a href="https://news.cctv.com/2023/04/21/ARTI9YMqZXC1xuGLaoTAZR7o230421.shtml" target="_blank"  mon="r=1"><b>央视快评</b></a>
+</strong>
+</li>
+<li class="hdline2">
+<i class="dot"></i>
+<strong>
+<a href="https://mp.weixin.qq.com/s/WrMYtFB3oVgKuA6x3U3dPg" target="_blank" class="a3" mon="ct=1&a=1&c=top&pn=1">你的家乡是哪种 “国色” ？ </a></strong>
+</li>
+<li class="hdline3">
+<i class="dot"></i>
+<strong>
+<a href="https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=14911588017054778871&toc_style_id=feeds_default&share_to=wechat&track_id=6f1779b1-a84e-4514-914c-5433a98cb627" target="_blank"  mon="r=1">玉渊谭天丨“去美元化”去向何方？ </a>
+</strong>
+</li>
+<li class="hdline4">
+<i class="dot"></i>
+<strong>
+<a href="https://wap.peopleapp.com/article/7066772/6920019" target="_blank" class="a3" mon="ct=1&a=1&c=top&pn=2">人民日报新媒体2023“时光博物馆”亮相南京</a></strong>
+</li>
+<li class="hdline5">
+<i class="dot"></i>
+<strong>
+<a href="https://wap.peopleapp.com/article/7066036/6919316" target="_blank"  mon="r=1">江西不断拓宽农民增收致富渠道</a>
+</strong>
+</li>
+</ul>
+</div>
+<ul class="ulist focuslistnews">
+<li class="bold-item">
+<span class="dot"></span>
+<a href="https://news.gmw.cn/2023-04/21/content_36510567.htm" mon="ct=1&amp;a=2&amp;c=top&pn=1" target="_blank">增强发扬彻底自我革命精神的实践自觉</a></li>
+<li>
+<a href="https://cn.chinadaily.com.cn/a/202304/21/WS6442512aa310537989370f7c.html" mon="ct=1&amp;a=2&amp;c=top&pn=2" target="_blank">伊朗留学生分享中东人的中国缘 </a></li>
+<li>
+<a href="https://cn.chinadaily.com.cn/a/202304/21/WS64422841a310537989370e0e.html" mon="ct=1&amp;a=2&amp;c=top&pn=3" target="_blank">【世界说】英媒：多位美官员发表种族主义言论 引发抗议 </a></li>
+<li>
+<a href="http://xj.news.cn/2023-04/21/c_1129541275.htm" mon="ct=1&amp;a=2&amp;c=top&pn=4" target="_blank">万人说新疆|浓香四溢的红火生活</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763495122905832510" mon="ct=1&amp;a=2&amp;c=top&pn=5" target="_blank">3月三大网络诈骗典型案例</a>&nbsp;<a href="https://item.btime.com/f1oqip9npkr8f28f8hn8pgtpd52" mon="ct=1&amp;a=2&amp;c=top&pn=5" target="_blank">专题｜新时代首都发展巡礼</a></li>
+<li>
+<a href="https://www.piyao.org.cn/" mon="ct=1&amp;a=2&amp;c=top&pn=6" target="_blank">互联网联合辟谣平台</a>&nbsp;<a href="https://www.piyao.org.cn/bq/index.htm" mon="ct=1&amp;a=2&amp;c=top&pn=6" target="_blank">网络辟谣标签工作专区</a></li>
+</ul>
+<ul class="ulist focuslistnews" >
+<li class="bold-item">
+<span class="dot"></span>
+<a href="https://baijiahao.baidu.com/s?id=1763739531514103436&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=7" target="_blank">北京市成立“4·18”长峰医院火灾事故调查组</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763773163193695513&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=8" target="_blank">美政府将限制企业对华关键经济领域投资？外交部：坚决反对</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763771564434254721&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=9" target="_blank">岸田文雄向靖国神社供奉祭品，外交部：已向日方提出交涉</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1763765324903097812" mon="ct=1&amp;a=2&amp;c=top&pn=10" target="_blank">政法委书记家丢块脚垫，动用了五六名刑警…… </a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763768977897388463&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=11" target="_blank">刘慈欣在联合国被"催更":对影视改编满意吗?啥时候出新书?</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763774718716762864&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=12" target="_blank">浙大研究生报考公务员因3年前发表辱华言论被举报 官方回应</a></li>
+</ul>
+<ul class="ulist focuslistnews" >
+<li class="bold-item">
+<span class="dot"></span>
+<a href="http://baijiahao.baidu.com/s?id=1763685550937254835" mon="ct=1&amp;a=2&amp;c=top&pn=13" target="_blank">史上最热4月席卷亚洲：十几国刷新最高温纪录</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763778071018517748" mon="ct=1&amp;a=2&amp;c=top&pn=14" target="_blank">这次新型导弹试射，金正恩携夫人、妹妹、女儿罕见同框</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763778517080781493&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=15" target="_blank">日本国会、众议院收到威胁邮件 声称"将杀死"首相岸田文雄</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763653700491550458&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=16" target="_blank">基辅夜空突现强烈闪光 当地官员：是一颗美国卫星坠落</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763677500401397719&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=17" target="_blank">也门大规模踩踏事件已致85死：人群挤压酿惨剧<span class="related-video-icon"></span></a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763704562428986641&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=18" target="_blank">SpaceX星舰重型运载火箭发射失败:出现故障后爆炸</a></li>
+</ul>
+<ul class="ulist focuslistnews" >
+<li class="bold-item">
+<span class="dot"></span>
+<a href="https://baijiahao.baidu.com/s?id=1763771001822226514&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=19" target="_blank">网传女生在宝马MINI展台直播被拖走 宝马回应</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763775566697360766&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=20" target="_blank">宝马mini工作人员:2名女生已离职 内部复盘看会否继续回应</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763779776244137194&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=21" target="_blank">马云受聘港大荣誉教授，聘期三年，将聚焦教育和企业创新</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1763775676361078080" mon="ct=1&amp;a=2&amp;c=top&pn=22" target="_blank">政观察｜深圳原市委副秘书长坠楼身亡，疑点是什么？ </a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763776617411611522&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=23" target="_blank">广东东莞突遭冰雹侵袭 鹅卵大冰雹密集落下铺满地面</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763775851152570051&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=24" target="_blank">山西突迎暴雪：大片雪花密集飘落，多地积雪超20厘米</a></li>
+</ul>
+<ul class="ulist focuslistnews" >
+<li class="bold-item">
+<span class="dot"></span>
+<a href="http://baijiahao.baidu.com/s?id=1763769703708278079" mon="ct=1&amp;a=2&amp;c=top&pn=25" target="_blank">《灌篮高手》，坐在电影院里就足够了 </a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763738919859831158&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=26" target="_blank">深圳一工人大叔街头弹钢琴火到海外 网友:才华横溢不分红尘</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763767717119197606&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=27" target="_blank">北京西南山区邂逅浪漫春雪:屋顶树梢披"新衣" 秒变童话世界</a></li>
+<li>
+<a href="http://baijiahao.baidu.com/s?id=1763752460293007917" mon="ct=1&amp;a=2&amp;c=top&pn=28" target="_blank">女孩被拐26年后回家父母双亡:一眼认出拐卖8名儿童的人贩子</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763766692082797483&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=29" target="_blank">女子吐槽软卧车厢分配3男1女 12306:可以看看其他交通工具</a></li>
+<li>
+<a href="https://baijiahao.baidu.com/s?id=1763787901286112840&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=30" target="_blank">网传广西灵山县某中学一教师涉嫌猥亵女生，官方通报</a></li>
+</ul>
+</div>
+<div id="pane-recommend" class="mod-tab-pane pane-recommend ">
+<div class="mod-tab-loading">
+<i class="icon-loading"></i>
+<p class="desc">加载中请您耐心等待...</p>
+</div>
+<div class="tip-wrapper">
+<a id="tip" class="mod-headline-tip" href="javascript:void(0);" mon="m=53&a=5">
+<i class="tip-logo"></i>
+<div class="tip-content">点击刷新，将会有未读推荐</div>
+</a>
+</div>

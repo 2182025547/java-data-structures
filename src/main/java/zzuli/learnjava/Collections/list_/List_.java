@@ -42,6 +42,10 @@ public class List_ {
         linkedList.add(book2);
         linkedList.add(book3);
         System.out.println("LinkedList:"+linkedList);
+        System.out.println("__________________________");
+        //创建不可变的List
+        List list = Collections.unmodifiableList(list1);
+        list.add("attemp join");
     }
 }
 class Book{

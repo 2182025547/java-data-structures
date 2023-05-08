@@ -6,7 +6,7 @@ package zzuli.learnjava.reflection_;
  * @time 21:44
  */
 public class Cat {
-    private String name;
+    private String name="招财猫";
 
     public String getName() {
         return name;
@@ -26,5 +26,9 @@ public class Cat {
     //hi method
     public void hi(){
         System.out.println("cat: hi!");
+    }
+
+    public void cry(){
+        System.out.println("miaomaioamiao");
     }
 }

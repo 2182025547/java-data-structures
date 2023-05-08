@@ -41,5 +41,6 @@ public class Map_ {
         studentages.forEach((key,value)-> {
             System.out.println(key + value);
         });
+        //
     }
 }

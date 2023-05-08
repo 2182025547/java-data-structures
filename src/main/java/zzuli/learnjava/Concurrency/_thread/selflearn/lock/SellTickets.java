@@ -26,8 +26,6 @@ class sell implements Runnable {
 
     @Override
     public void run() {
-
-
         while (true) {
             try {
                 lock.lock();
@@ -36,7 +34,7 @@ class sell implements Runnable {
                 System.out.println(Thread.currentThread().getName() + " has sold " + (100 - ticketsNumber));
             } finally {
                 lock.unlock();
-                //释放锁后休息100毫秒
+                //释放锁后休息100毫秒,每次执行过后都需要释放锁，以避免其他线程无法获得锁。
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException e) {

@@ -12,3 +12,6 @@ public class AwithDefault {
     }
 
 }
+class Default_{
+    int a;
+}
